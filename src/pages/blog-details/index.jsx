@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useBlog } from '../../context/BlogContext';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import Breadcrumbs from '../../components/layout/Breadcrumbs';
 import ArticleHeader from './components/ArticleHeader';
 import ArticleImage from './components/ArticleImage';

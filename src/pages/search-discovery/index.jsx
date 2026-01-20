@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import Breadcrumbs from '../../components/layout/Breadcrumbs';
 import Icon from '../../components/AppIcon';
 import Button from '../../components/ui/Button';

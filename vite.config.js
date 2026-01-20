@@ -8,10 +8,6 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-          'ui-vendor': ['lucide-react', '@radix-ui/react-slot'],
-        },
       },
     },
     chunkSizeWarningLimit: 1000,
